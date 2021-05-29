@@ -1,0 +1,592 @@
+12:50:57 INFO  : Launching XSCT server: xsct -n  -interactive /home/mxmont/Desktop/XADCC/temp_xsdb_launch_script.tcl
+12:50:57 INFO  : Registering command handlers for Vitis TCF services
+12:51:02 INFO  : Platform repository initialization has completed.
+12:51:02 INFO  : XSCT server has started successfully.
+12:51:02 INFO  : plnx-install-location is set to ''
+12:51:03 INFO  : Successfully done setting XSCT server connection channel  
+12:51:03 INFO  : Successfully done query RDI_DATADIR 
+12:51:03 INFO  : Successfully done setting workspace for the tool. 
+12:56:45 INFO  : Result from executing command 'getProjects': design_1_wrapper
+12:56:45 INFO  : Result from executing command 'getPlatforms': 
+12:56:45 WARN  : An unexpected exception occurred in the module 'platform project logging'
+12:56:45 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+12:56:59 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+14:33:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:33:31 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+14:33:31 INFO  : 'jtag frequency' command is executed.
+14:33:31 INFO  : Context for 'APU' is selected.
+14:33:31 INFO  : System reset is completed.
+14:33:34 INFO  : 'after 3000' command is executed.
+14:33:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+14:33:35 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+14:33:35 INFO  : Context for 'APU' is selected.
+14:33:35 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+14:33:35 INFO  : 'configparams force-mem-access 1' command is executed.
+14:33:35 INFO  : Context for 'APU' is selected.
+14:33:35 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+14:33:36 INFO  : 'ps7_init' command is executed.
+14:33:36 INFO  : 'ps7_post_config' command is executed.
+14:33:36 INFO  : 'configparams force-mem-access 0' command is executed.
+14:33:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:33:36 INFO  : Disconnected from the channel tcfchan#1.
+15:33:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:33:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:34:00 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:35:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:35:05 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:35:05 INFO  : 'jtag frequency' command is executed.
+15:35:05 INFO  : Context for 'APU' is selected.
+15:35:05 INFO  : System reset is completed.
+15:35:08 INFO  : 'after 3000' command is executed.
+15:35:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:35:09 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:35:09 INFO  : Context for 'APU' is selected.
+15:35:09 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:35:09 INFO  : 'configparams force-mem-access 1' command is executed.
+15:35:09 INFO  : Context for 'APU' is selected.
+15:35:09 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:35:10 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+15:35:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+----------------End of Script----------------
+
+15:35:10 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+15:35:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:35:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:35:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:35:39 ERROR : fpga configuration failed. DONE PIN is not HIGH
+15:35:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:35:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:36:00 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:36:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:21 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:36:21 INFO  : 'jtag frequency' command is executed.
+15:36:22 INFO  : Context for 'APU' is selected.
+15:36:22 INFO  : System reset is completed.
+15:36:25 INFO  : 'after 3000' command is executed.
+15:36:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:36:26 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:36:26 INFO  : Context for 'APU' is selected.
+15:36:26 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:36:26 INFO  : 'configparams force-mem-access 1' command is executed.
+15:36:26 INFO  : Context for 'APU' is selected.
+15:36:26 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:36:26 INFO  : 'ps7_init' command is executed.
+15:36:26 INFO  : 'ps7_post_config' command is executed.
+15:36:26 INFO  : 'configparams force-mem-access 0' command is executed.
+15:36:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:36:26 INFO  : Launch script is exported to file '/home/mxmont/Desktop/XADCC/XADC_Vitis_system/_ide/scripts/debugger_xadc_vitis-default.tcl'
+15:37:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:37:34 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:37:34 INFO  : 'jtag frequency' command is executed.
+15:37:34 INFO  : Context for 'APU' is selected.
+15:37:35 INFO  : System reset is completed.
+15:37:38 INFO  : 'after 3000' command is executed.
+15:37:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:37:39 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:37:39 INFO  : Context for 'APU' is selected.
+15:37:39 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:37:39 INFO  : 'configparams force-mem-access 1' command is executed.
+15:37:39 INFO  : Context for 'APU' is selected.
+15:37:39 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:37:39 INFO  : 'ps7_init' command is executed.
+15:37:39 INFO  : 'ps7_post_config' command is executed.
+15:37:39 INFO  : 'configparams force-mem-access 0' command is executed.
+15:37:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:37:39 INFO  : Disconnected from the channel tcfchan#2.
+15:40:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:40:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:40:42 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:41:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:41:05 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:41:05 INFO  : 'jtag frequency' command is executed.
+15:41:05 INFO  : Context for 'APU' is selected.
+15:41:05 INFO  : System reset is completed.
+15:41:08 INFO  : 'after 3000' command is executed.
+15:41:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:41:09 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:41:09 INFO  : Context for 'APU' is selected.
+15:41:09 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:41:09 INFO  : 'configparams force-mem-access 1' command is executed.
+15:41:09 INFO  : Context for 'APU' is selected.
+15:41:09 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:41:10 INFO  : 'ps7_init' command is executed.
+15:41:10 INFO  : 'ps7_post_config' command is executed.
+15:41:10 INFO  : 'configparams force-mem-access 0' command is executed.
+15:41:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:41:10 INFO  : Disconnected from the channel tcfchan#3.
+15:42:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:03 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:42:03 INFO  : 'jtag frequency' command is executed.
+15:42:03 INFO  : Context for 'APU' is selected.
+15:42:03 INFO  : System reset is completed.
+15:42:06 INFO  : 'after 3000' command is executed.
+15:42:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:42:08 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:42:08 INFO  : Context for 'APU' is selected.
+15:42:08 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:42:08 INFO  : 'configparams force-mem-access 1' command is executed.
+15:42:08 INFO  : Context for 'APU' is selected.
+15:42:08 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:42:08 INFO  : 'ps7_init' command is executed.
+15:42:08 INFO  : 'ps7_post_config' command is executed.
+15:42:08 INFO  : 'configparams force-mem-access 0' command is executed.
+15:42:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:42:08 INFO  : Disconnected from the channel tcfchan#4.
+15:43:09 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:43:09 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+15:43:13 INFO  : Checking for BSP changes to sync application flags for project 'XADC_Vitis'...
+15:44:55 INFO  : Checking for BSP changes to sync application flags for project 'XADC_Vitis'...
+15:45:15 INFO  : Checking for BSP changes to sync application flags for project 'XADC_Vitis'...
+15:50:02 INFO  : Checking for BSP changes to sync application flags for project 'XADC_Vitis'...
+15:50:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:10 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:50:10 INFO  : 'jtag frequency' command is executed.
+15:50:10 INFO  : Context for 'APU' is selected.
+15:50:10 INFO  : System reset is completed.
+15:50:13 INFO  : 'after 3000' command is executed.
+15:50:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:50:14 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:50:14 INFO  : Context for 'APU' is selected.
+15:50:14 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:50:14 INFO  : 'configparams force-mem-access 1' command is executed.
+15:50:14 INFO  : Context for 'APU' is selected.
+15:50:14 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:50:15 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+15:50:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+----------------End of Script----------------
+
+15:50:15 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+15:51:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:51:21 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:51:21 INFO  : 'jtag frequency' command is executed.
+15:51:21 INFO  : Context for 'APU' is selected.
+15:51:21 INFO  : System reset is completed.
+15:51:24 INFO  : 'after 3000' command is executed.
+15:51:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:51:25 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:51:25 INFO  : Context for 'APU' is selected.
+15:51:25 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:51:25 INFO  : 'configparams force-mem-access 1' command is executed.
+15:51:25 INFO  : Context for 'APU' is selected.
+15:51:25 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:51:26 INFO  : 'ps7_init' command is executed.
+15:51:26 INFO  : 'ps7_post_config' command is executed.
+15:51:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:51:26 INFO  : The application '/home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:51:26 INFO  : 'configparams force-mem-access 0' command is executed.
+15:51:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:51:32 INFO  : Disconnected from the channel tcfchan#6.
+15:51:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:51:33 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:51:33 INFO  : 'jtag frequency' command is executed.
+15:51:33 INFO  : Context for 'APU' is selected.
+15:51:33 INFO  : System reset is completed.
+15:51:36 INFO  : 'after 3000' command is executed.
+15:51:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:51:37 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:51:37 INFO  : Context for 'APU' is selected.
+15:51:37 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:51:37 INFO  : 'configparams force-mem-access 1' command is executed.
+15:51:37 INFO  : Context for 'APU' is selected.
+15:51:37 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:51:38 INFO  : 'ps7_init' command is executed.
+15:51:38 INFO  : 'ps7_post_config' command is executed.
+15:51:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:51:38 ERROR : Memory write error at 0x100000. MMU section translation fault
+15:51:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf
+----------------End of Script----------------
+
+15:51:38 ERROR : Memory write error at 0x100000. MMU section translation fault
+15:52:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:52:06 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+15:52:06 INFO  : 'jtag frequency' command is executed.
+15:52:06 INFO  : Context for 'APU' is selected.
+15:52:06 INFO  : System reset is completed.
+15:52:09 INFO  : 'after 3000' command is executed.
+15:52:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+15:52:10 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+15:52:11 INFO  : Context for 'APU' is selected.
+15:52:11 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+15:52:11 INFO  : 'configparams force-mem-access 1' command is executed.
+15:52:11 INFO  : Context for 'APU' is selected.
+15:52:11 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+15:52:11 INFO  : 'ps7_init' command is executed.
+15:52:11 INFO  : 'ps7_post_config' command is executed.
+15:52:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:52:11 INFO  : The application '/home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:52:11 INFO  : 'configparams force-mem-access 0' command is executed.
+15:52:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:01:29 INFO  : Disconnected from the channel tcfchan#7.
+16:01:32 INFO  : Checking for BSP changes to sync application flags for project 'XADC_Vitis'...
+16:01:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:01:42 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+16:01:42 INFO  : 'jtag frequency' command is executed.
+16:01:42 INFO  : Context for 'APU' is selected.
+16:01:42 INFO  : System reset is completed.
+16:01:45 INFO  : 'after 3000' command is executed.
+16:01:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+16:01:47 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+16:01:47 INFO  : Context for 'APU' is selected.
+16:01:47 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:01:47 INFO  : 'configparams force-mem-access 1' command is executed.
+16:01:47 INFO  : Context for 'APU' is selected.
+16:01:47 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+16:01:47 INFO  : 'ps7_init' command is executed.
+16:01:47 INFO  : 'ps7_post_config' command is executed.
+16:01:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:01:47 ERROR : Memory write error at 0x100000. MMU section translation fault
+16:01:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf
+----------------End of Script----------------
+
+16:01:47 ERROR : Memory write error at 0x100000. MMU section translation fault
+16:02:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:02:10 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+16:02:10 INFO  : 'jtag frequency' command is executed.
+16:02:10 INFO  : Context for 'APU' is selected.
+16:02:10 INFO  : System reset is completed.
+16:02:13 INFO  : 'after 3000' command is executed.
+16:02:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+16:02:15 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+16:02:15 INFO  : Context for 'APU' is selected.
+16:02:15 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:02:15 INFO  : 'configparams force-mem-access 1' command is executed.
+16:02:15 INFO  : Context for 'APU' is selected.
+16:02:15 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+16:02:15 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+16:02:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+----------------End of Script----------------
+
+16:02:15 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+16:02:31 INFO  : Checking for BSP changes to sync application flags for project 'XADC_Vitis'...
+16:03:24 INFO  : Checking for BSP changes to sync application flags for project 'XADC_Vitis'...
+16:03:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:03:32 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+16:03:32 INFO  : 'jtag frequency' command is executed.
+16:03:32 INFO  : Context for 'APU' is selected.
+16:03:33 INFO  : System reset is completed.
+16:03:36 INFO  : 'after 3000' command is executed.
+16:03:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+16:03:37 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+16:03:37 INFO  : Context for 'APU' is selected.
+16:03:37 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:03:37 INFO  : 'configparams force-mem-access 1' command is executed.
+16:03:37 INFO  : Context for 'APU' is selected.
+16:03:37 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+16:03:37 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+16:03:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+----------------End of Script----------------
+
+16:03:37 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+16:03:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:03:42 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+16:03:42 INFO  : 'jtag frequency' command is executed.
+16:03:42 INFO  : Context for 'APU' is selected.
+16:03:42 INFO  : System reset is completed.
+16:03:45 INFO  : 'after 3000' command is executed.
+16:03:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+16:03:46 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+16:03:46 INFO  : Context for 'APU' is selected.
+16:03:46 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:03:46 INFO  : 'configparams force-mem-access 1' command is executed.
+16:03:46 INFO  : Context for 'APU' is selected.
+16:03:46 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+16:03:47 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+16:03:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+----------------End of Script----------------
+
+16:03:47 ERROR : Memory read error at 0xE0001034. AP transaction timeout
+16:03:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:03:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+16:03:57 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+16:04:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:04:07 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+16:04:07 INFO  : 'jtag frequency' command is executed.
+16:04:07 INFO  : Context for 'APU' is selected.
+16:04:07 INFO  : System reset is completed.
+16:04:10 INFO  : 'after 3000' command is executed.
+16:04:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+16:04:11 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+16:04:11 INFO  : Context for 'APU' is selected.
+16:04:11 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:04:11 INFO  : 'configparams force-mem-access 1' command is executed.
+16:04:11 INFO  : Context for 'APU' is selected.
+16:04:11 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+16:04:12 INFO  : 'ps7_init' command is executed.
+16:04:12 INFO  : 'ps7_post_config' command is executed.
+16:04:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:04:12 INFO  : The application '/home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:04:12 INFO  : 'configparams force-mem-access 0' command is executed.
+16:04:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:14:14 INFO  : Disconnected from the channel tcfchan#8.
+16:38:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:38:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+16:38:56 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+16:41:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:41:17 INFO  : Jtag cable 'Digilent Zybo 210279A42739A' is selected.
+16:41:17 INFO  : 'jtag frequency' command is executed.
+16:41:17 INFO  : Context for 'APU' is selected.
+16:41:17 INFO  : System reset is completed.
+16:41:20 INFO  : 'after 3000' command is executed.
+16:41:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}' command is executed.
+16:41:21 INFO  : Device configured successfully with "/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit"
+16:41:21 INFO  : Context for 'APU' is selected.
+16:41:21 INFO  : Hardware design and registers information is loaded from '/home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:41:21 INFO  : 'configparams force-mem-access 1' command is executed.
+16:41:21 INFO  : Context for 'APU' is selected.
+16:41:21 INFO  : Sourcing of '/home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl' is done.
+16:41:22 INFO  : 'ps7_init' command is executed.
+16:41:22 INFO  : 'ps7_post_config' command is executed.
+16:41:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:41:22 INFO  : The application '/home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:41:22 INFO  : 'configparams force-mem-access 0' command is executed.
+16:41:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279A42739A" && level==0 && jtag_device_ctx=="jsn-Zybo-210279A42739A-13722093-0"}
+fpga -file /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/mxmont/Desktop/XADCC/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/mxmont/Desktop/XADCC/XADC_Vitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/mxmont/Desktop/XADCC/XADC_Vitis/Debug/XADC_Vitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:41:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:41:22 INFO  : 'con' command is executed.
+16:41:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:41:22 INFO  : Disconnected from the channel tcfchan#9.

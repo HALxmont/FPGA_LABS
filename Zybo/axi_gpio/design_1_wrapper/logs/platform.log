@@ -1,0 +1,1426 @@
+TRACE::2021-05-27.16:52:13::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:13::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:13::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:20::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:20::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:20::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:20::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-05-27.16:52:23::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2021-05-27.16:52:23::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2021-05-27.16:52:23::SCWPlatform::Boot application domains not present, creating them
+TRACE::2021-05-27.16:52:23::SCWDomain::checking for install qemu data   : 
+TRACE::2021-05-27.16:52:23::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2021-05-27.16:52:23::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2021-05-27.16:52:23::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:23::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:23::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:23::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:23::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:23::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:23::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2021-05-27.16:52:23::SCWPlatform::Generating the sources  .
+TRACE::2021-05-27.16:52:23::SCWBDomain::Generating boot domain sources.
+TRACE::2021-05-27.16:52:23::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2021-05-27.16:52:23::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:23::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:23::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:23::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:23::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-05-27.16:52:23::SCWMssOS::No sw design opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:23::SCWMssOS::mss does not exists at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:23::SCWMssOS::Creating sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:24::SCWMssOS::Adding the swdes entry, created swdb /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:24::SCWMssOS::updating the scw layer changes to swdes at   /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:24::SCWMssOS::Writing mss at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:24::SCWMssOS::Completed writing the mss file at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2021-05-27.16:52:24::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-05-27.16:52:24::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-05-27.16:52:24::SCWBDomain::Completed writing the mss file at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2021-05-27.16:52:41::SCWPlatform::Generating sources Done.
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2021-05-27.16:52:41::SCWMssOS::Could not open the swdb for /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2021-05-27.16:52:41::SCWMssOS::Could not open the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2021-05-27.16:52:41::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-05-27.16:52:41::SCWMssOS::No sw design opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::mss exists loading the mss file  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::Opened the sw design from mss  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::Adding the swdes entry /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2021-05-27.16:52:41::SCWMssOS::updating the scw layer about changes
+TRACE::2021-05-27.16:52:41::SCWMssOS::Opened the sw design.  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:41::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:41::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:41::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:41::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-05-27.16:52:41::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:41::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:41::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:41::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:41::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-05-27.16:52:41::SCWDomain::checking for install qemu data   : 
+TRACE::2021-05-27.16:52:41::SCWDomain:: Using the QEMU Data from install at  : /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2021-05-27.16:52:41::SCWDomain:: Using the QEMU args  from install at  : /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:41::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:41::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:41::SCWMssOS::No sw design opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::mss does not exists at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:41::SCWMssOS::Creating sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Adding the swdes entry, created swdb /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::updating the scw layer changes to swdes at   /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Writing mss at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writing the mss file at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2021-05-27.16:52:42::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-05-27.16:52:42::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writing the mss file at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2021-05-27.16:52:42::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Running validate of swdbs.
+KEYINFO::2021-05-27.16:52:42::SCWMssOS::Could not open the swdb for /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+KEYINFO::2021-05-27.16:52:42::SCWMssOS::Could not open the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss is not found
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-05-27.16:52:42::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2021-05-27.16:52:42::SCWMssOS::Writing the mss file completed /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-05-27.16:52:42::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2021-05-27.16:52:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-27.16:52:42::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2021-05-27.16:52:42::SCWSystem::Checking the domain zynq_fsbl
+LOG::2021-05-27.16:52:42::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2021-05-27.16:52:42::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2021-05-27.16:52:42::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2021-05-27.16:52:42::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2021-05-27.16:52:42::SCWSystem::Not a boot domain 
+LOG::2021-05-27.16:52:42::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2021-05-27.16:52:42::SCWDomain::Generating domain artifcats
+TRACE::2021-05-27.16:52:42::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-27.16:52:42::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2021-05-27.16:52:42::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2021-05-27.16:52:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writing the mss file at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2021-05-27.16:52:42::SCWMssOS::Mss edits present, copying mssfile into export location /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-27.16:52:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-27.16:52:42::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2021-05-27.16:52:42::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-05-27.16:52:42::SCWMssOS::Copying to export directory.
+TRACE::2021-05-27.16:52:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-05-27.16:52:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2021-05-27.16:52:42::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2021-05-27.16:52:42::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2021-05-27.16:52:42::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2021-05-27.16:52:42::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2021-05-27.16:52:42::SCWPlatform::Started preparing the platform 
+TRACE::2021-05-27.16:52:42::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2021-05-27.16:52:42::SCWSystem::dir created 
+TRACE::2021-05-27.16:52:42::SCWSystem::Writing the bif 
+TRACE::2021-05-27.16:52:42::SCWPlatform::Started writing the spfm file 
+TRACE::2021-05-27.16:52:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-05-27.16:52:42::SCWPlatform::Completed generating the platform
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-05-27.16:52:42::SCWPlatform::updated the xpfm file.
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-05-27.16:52:42::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2021-05-27.16:52:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-27.16:52:42::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2021-05-27.16:52:42::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2021-05-27.16:52:42::SCWDomain::Generating domain artifcats
+TRACE::2021-05-27.16:52:42::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-27.16:52:42::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2021-05-27.16:52:42::SCWMssOS::Copying the qemu file from  /tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2021-05-27.16:52:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writing the mss file at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2021-05-27.16:52:42::SCWMssOS::Mss edits present, copying mssfile into export location /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-27.16:52:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-27.16:52:42::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2021-05-27.16:52:42::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-05-27.16:52:42::SCWMssOS::Copying to export directory.
+TRACE::2021-05-27.16:52:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-05-27.16:52:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2021-05-27.16:52:42::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2021-05-27.16:52:42::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2021-05-27.16:52:42::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2021-05-27.16:52:42::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2021-05-27.16:52:42::SCWPlatform::Started preparing the platform 
+TRACE::2021-05-27.16:52:42::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2021-05-27.16:52:42::SCWSystem::dir created 
+TRACE::2021-05-27.16:52:42::SCWSystem::Writing the bif 
+TRACE::2021-05-27.16:52:42::SCWPlatform::Started writing the spfm file 
+TRACE::2021-05-27.16:52:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-05-27.16:52:42::SCWPlatform::Completed generating the platform
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Saving the mss changes /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-27.16:52:42::SCWMssOS::Commit changes completed.
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to open the hw design at /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA given /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA absoulate path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform::DSA directory /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Platform Path /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2021-05-27.16:52:42::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2021-05-27.16:52:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-27.16:52:42::SCWMssOS::Checking the sw design at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWMssOS::DEBUG:  swdes dump  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+/home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2021-05-27.16:52:42::SCWMssOS::Sw design exists and opened at  /home/mxmont/Documents/Universidad/FPGA/Zybo/axi_gpio/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2021-05-27.16:52:42::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a9bed6f02df5d7c894c6b55dffd0b02d",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"/tools/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"a871759b4d133ef6ce31ddae6ddc24f0",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-05-27.16:52:42::SCWPlatform::updated the xpfm file.

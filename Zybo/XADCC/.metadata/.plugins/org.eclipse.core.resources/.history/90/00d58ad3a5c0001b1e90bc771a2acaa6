@@ -1,0 +1,17 @@
+#include "xsysmon.h"
+#include "xparameters.h"
+#include "xstatus.h"
+#include "xil_exception.h"
+#include "xil_printf.h"
+#include "sleep.h"
+
+#define C_BASEADDR 0x43C00000
+
+int main(){
+	u16 data = 1;
+	u16 data6 = 0;
+	u16 data7 = 0;
+	u16 data14 = 0;
+	u16 data15 = 0;
+
+}
